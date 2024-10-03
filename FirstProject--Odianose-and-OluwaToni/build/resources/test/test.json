@@ -1,0 +1,17 @@
+{
+  "query": {
+    "pages": {
+      "12345": {
+        "title": "Soup",
+        "revisions": [
+          {
+            "user": "Editor123",
+            "timestamp": "2020-01-01T12:00:00Z"
+          }
+        ],
+        "missing": false,
+        "redirects": []
+      }
+    }
+  }
+}

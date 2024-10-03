@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="BSU.EDU.cs.GUI">
+   <!-- A VBox for vertical layout -->
+   <VBox alignment="CENTER" prefHeight="400.0" prefWidth="600.0" spacing="10.0" AnchorPane.leftAnchor="20.0" AnchorPane.topAnchor="20.0">
+      <!-- TextField for user input (article name) -->
+      <TextField fx:id="articleTextField" promptText="Enter Wikipedia article name" text="zappa" />
+
+      <!-- Button to trigger the query -->
+      <Button fx:id="fetchButton" text="Fetch Recent Changes" />
+
+      <!-- TextArea to display the results -->
+      <TextArea fx:id="resultTextArea" editable="false" prefHeight="200.0" prefWidth="580.0" />
+   </VBox>
+</AnchorPane>
