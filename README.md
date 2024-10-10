@@ -1,2 +1,2 @@
-Summary: This is a project that uses wikiAPI to get the 15 recent changes from any article/webpage on wikipedia. 
+Summary: This project uses wiki API to get the 15 recent changes from any article/webpage on Wikipedia. 
 Author: Odianose Anon.
